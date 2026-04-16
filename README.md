@@ -3,8 +3,7 @@
 Uma aplicação 100% local e segura para resumir documentos extensos (PDF, DOCX, TXT) utilizando Inteligência Artificial. Desenvolvida com **Streamlit**, **LangChain** e modelos locais via **Ollama**.
 **Privacidade total**: nada sai da sua máquina, você não precisa de chaves de API pagas e seu documento não é usado para treinar modelos por empresas terceiras.
 
-![Demonstração da Tela Principal](https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png)
-*(Se quiser, adicione aqui um print da tela da sua aplicação e mude este link, usando `![Legenda](caminho_da_imagem.png)`)*
+![Demonstração da Tela Principal](print_tela.png)
 
 ## 🚀 Funcionalidades
 - **100% Offline e Privado**: O processamento e inferência são feitos localmente usando o Ollama. Nenhuma conexão com a internet é necessária durante o uso.
