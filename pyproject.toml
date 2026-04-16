@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "local_summarizer"
+version = "0.1.0"
+description = "Um resumidor local baseado em LCEL e Arquitetura SOLID"
+authors = ["Bruno <bruno@example.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.32.0"
+langchain = "^0.1.13"
+langchain-community = "^0.0.29"
+unstructured = "^0.12.5"
+pdfminer-six = "^20231228"
+python-docx = "^1.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
