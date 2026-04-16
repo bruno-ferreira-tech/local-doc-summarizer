@@ -57,7 +57,7 @@ pip install -r requirements.txt
 ### 4. Iniciar a aplicação
 Com o ambiente ativado, rode a aplicação abrindo o servidor do Streamlit:
 ```bash
-streamlit run app.py
+streamlit run src/app.py
 ```
 A interface será aberta automaticamente no seu navegador padrão (geralmente sob o endereço `http://localhost:8501`).
 
